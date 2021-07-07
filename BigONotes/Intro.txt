@@ -1,0 +1,17 @@
+Big O notation is a framework for talking about code. 
+
+Objectives
+-Why do we need it?
+-Describe it
+-Simplify Big O expressions
+-Define time and space complexity
+-Evaluate the time complexity and space complexity of different altos using Big O
+-Describe what a logarithm is
+
+Why?
+For every problem there's multiple solutions. Big O is how we know what's best. Big O is a system that provides numeric representations for classifying and comparing different algorithms.
+
+It's good to have a precise, universal vocabulary to talk about how our code performs + useful for discussing trade-offs between approaches + identifies parts of code that are inefficient + comes up in interviews a lot.
+
+
+
