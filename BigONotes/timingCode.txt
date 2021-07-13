@@ -1,0 +1,27 @@
+timing our code 
+what makes code better
+-faster 
+-less memory intensive 
+
+how to measure
+-why not time code?
+—not super reliable (diff machines record diff times, same machine records diff times) 
+—testing out two functions and timing them is arduous 
+—for fast algos speed measurements may not be precise enough 
+
+if not time, then what?
+-we count the number of simple operations the computer has to perform (e.g. this algo has 5 operations to run and the other has 7) 
+-how many operations? 
+—multiplication 
+—division 
+—addition
+—subtraction etc
+—include every time it does it in a loop 
+— += the plus and the equal are two diff ones 
+— ++ in loop is an operation 
+— equals when setting a variable (i = 0 in loop, total = 0) 
+
+but the counting doesn’t really matter 
+-as n grows the number of operations grow w n in a loop - so that’s higher than when they don’t 
+-we care about the general trend of the function as n increases 
+
