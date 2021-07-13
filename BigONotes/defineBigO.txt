@@ -1,0 +1,21 @@
+official intro to big O
+big o is just formalized fuzzy counting 
+
+it allows us to talk formally about how the runtime of an algo grows as the inputs grow 
+
+we don’t care about the details only the broad trends 
+
+Big O definition: we say that an algo is O(f(n)) if the number of simple operations the computer has to do is eventually less than a constant times f(n) as n increases. 
+
+Think of Big O as when n grows what would a graph of it look like? 
+
+We always think of it in the worst case scenario - the upper bound for runtime. 
+
+f(n) could be linear (f(n) = n) 
+quadratic (f(n) = n^2)
+constant (f(n) =1) 
+or something else 
+
+IRL runtime will vary even with constants but in theory is what matters. If something always has 3 operations, it’s constant O(3). The number of operations grows w n then it’s O(n). 
+
+If we have a nested loop (loop within a loop) then it’s O(n^2) 
