@@ -1,0 +1,18 @@
+Simplifying Big O expressions 
+Constants
+-we don’t need to include new constants because those all look the same on a chart really. so, we just use O(1)
+O(2n) is just O(n)
+O(13n^2) is just O(n^2) 
+
+smaller terms don’t matter 
+O(n +10) is just O(n) 
+
+look at these from a huge perspective. your threshold for what to include is if it makes as much of a difference as O(n) vs O(n^2) 
+
+shorthand rules 
+1. arithmetic operations are constant (2+2 takes the same time as larger numbers pretty much)
+2. variable assignment is constant (x = 10 takes basically the same time as x = 500)
+3. accessing elements in an array (by index) or object (by key) is constant (doesn’t matter if it’s element 1 or 100)
+4. in a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop 
+
+You only care about big O as n grows. Here’s what that means. If you have a function that prints n or 5, whichever number is smaller, then as n grows the worst case scenario is 5 so it’s O(1)
