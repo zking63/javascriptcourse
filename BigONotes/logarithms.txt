@@ -1,0 +1,21 @@
+logarithms 
+some algorithms have a more complex Big O - some expressions involve complex math with logarithms 
+
+logarithms are the inverse of exponentiation 
+
+log2(8) = 3 —- 2^3 =8 (log2 has base of 2)
+log base (value) = exponent 
+
+we omit the base so log == log2 but in math log alone usually isn’t just log alone. 
+
+the logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that’s less than or equal to 1. 
+
+logarithm complexity 
+if you have an algo with logarithmic time complexity that’s good! this is fast. 
+
+Who cares? 
+certain searching algos have log time complexity. 
+
+efficient sorting algos involve logs 
+recursion sometimes involves log space complexity 
+
