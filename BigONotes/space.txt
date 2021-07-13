@@ -1,0 +1,16 @@
+spAce complexity 
+so far we’ve talked about time complexity (how long it takes) now we’re switching to how much space an algo takes up 
+
+we still use Big O to describe 
+
+as n grows - the size of the input grows 
+auxiliary space complexity is the space required by the algo not including space taken up by the inputs. that’s what we’re talking about. 
+
+space complexity in javascript 
+-most primitives (booleans, numbers, and undefined, null) are constant space
+-strings require O(n) space where n is string length 
+-reference types (arrays and objects) are generally O(n)
+
+space complexity depends on worst case scenario of variables used 
+-e.g. if you take in an array and add each number with a loop there’s only 2 variables (i in the loop and the total) both are numbers so it’s O(1)
+-if you’re creating a new array, it’s O(n) 
