@@ -1,0 +1,8 @@
+When are arrays slow? 
+You use arrays when you need order or fast access O(1) but it’s slower when you have to insert or remove 
+
+The big O when you’re inserting depends on where you’re adding. Adding it to the end is O(1). Inserting at the beginning means re-indexing every element in the array, this is O(N). 
+
+Accessing is always fast. 
+
+Searching is O(N) because you potentially have to check every element 

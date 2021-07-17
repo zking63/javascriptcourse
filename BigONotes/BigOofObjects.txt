@@ -1,0 +1,11 @@
+The Big O of Objects
+-objects are unordered key value pairs 
+-insertion with objects is O(1)
+-removal is O(1)
+-searching is O(N)
+-access is O(1)
+Big O of Object Methods
+-Object.keys is O(N)
+-Object.values is O(N)
+-Object.entries is O(N)
+-hasOwnProperty is O(1)
