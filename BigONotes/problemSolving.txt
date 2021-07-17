@@ -1,0 +1,42 @@
+Intro to problem solving 
+Algorithm: a process or set of steps to accomplish a certain task. Almost everything in programming involves an algorithm. It’s the foundation of being a successful problem solving developer. Really big in interviews. 
+
+How do you improve 
+1. devise a plan for solving problems 
+2. master common problem solving patterns 
+
+problem-solving strategies 
+1. understand the problem 
+2. explore concrete examples 
+3. break it down 
+4. solve/simplify 
+5. look back and refractor 
+
+Step 1: Understanding the problem 
+-ask yourself these questions:
+1. can you restate the question in your own words 
+2. what are the inputs / what do they look like?
+3. what are the outputs that should come from the solutions
+4. can the outputs be determined by the inputs? meaning do you have enough info to solve the problem - you may not be able to solve this one immediately 
+5. how should i label the important pieces of data that are part of the problem 
+
+problem solving step 1 with: write a function that takes two numbers and returns their sum 
+1. restate: add two numbers
+2. input: 2 numbers (are we using integers, floating, how large are these numbers? is it only 2 numbers?)
+3. outputs: should it be an integer? float? if 2 large numbers are added should we output a string instead?
+4. can outputs be determined from inputs: what if only one number is put in? 
+5. how should i label important pieces of data that are part of the problem: num1, num2, total 
+
+Step 2: explore concrete examples 
+this helps you understand the problem better 
+1. start with simple examples (write down 2-3 simple examples with input or output) 
+2. progress to more complex examples 
+3. explore examples with empty inputs 
+4. what happens if user inputs invalid examples 
+
+example problem: write a function which takes in a string and returns counts of the characters in the string 
+1. CharCount(“aaa”) would return 3. CharCount(“hello”) would return 5. ask do we need counts of letters that aren’t there for example ( a: 3, b: 0)
+2. more complex cases: do you count spaces? how do you handle uppercase vs lower case of the same letter? 
+3. empty input - do we want to return empty object? null? error? 0?
+4. what if we pass something that isn’t a string? what should we return? 
+
