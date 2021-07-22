@@ -35,4 +35,4 @@ function Anagram(str, str2){
     console.log(counter2);
     return true;
 }
-console.log(Anagram([1,2,4,5,1,7], [1,1,2,4,5,6]));
+console.log(Anagram([1,2,4,5,1,7,8,8], [1,8,7,1,2,4,5,8]));
