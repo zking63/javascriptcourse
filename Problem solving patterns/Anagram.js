@@ -1,5 +1,6 @@
 //given two strings write a function to determine if 
 //the second string is an anagram of the first. 
+//this is O(N)
 function Anagram(str, str2){
     if(str.length != str2.length){
         return false;
