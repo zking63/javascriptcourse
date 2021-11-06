@@ -2,10 +2,12 @@
 //It must find the max sum of n digits that are next to one and other 
 //in the array.
 function maxSubArraySum(arr, num) {
-    console.log(arr);
-    console.log(num);
     let maxNum = 0;
     let tempNum = 0;
+    //if the num is less than the 0
+    if (num < 0){
+        return null;
+    }
     //if the array is shorter than the number, then it's null
     if (arr.length < num){
         return null;
@@ -25,5 +27,6 @@ function maxSubArraySum(arr, num) {
         maxNum = Math.max(maxNum, tempNum);
     }
     console.log("maxNum " + maxNum);
+    return maxNum;
 }
-maxSubArraySum([1,2,100,3,5,6], 3);
+console.log(maxSubArraySum([1,2,-100,3,5,6], -3));
